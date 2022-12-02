@@ -719,6 +719,10 @@ video {
   margin-right: 8rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -781,6 +785,10 @@ video {
 
 .w-32 {
   width: 8rem;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .grow {
@@ -949,6 +957,21 @@ video {
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .pl-3 {
@@ -1247,10 +1270,6 @@ video {
     margin-left: 2.5rem;
   }
 
-  .sm\:ml-20 {
-    margin-left: 5rem;
-  }
-
   .sm\:w-1\/2 {
     width: 50%;
   }
@@ -1287,24 +1306,12 @@ video {
     margin-left: 1.75rem;
   }
 
-  .md\:mr-7 {
-    margin-right: 1.75rem;
-  }
-
   .md\:ml-40 {
     margin-left: 10rem;
   }
 
   .md\:ml-32 {
     margin-left: 8rem;
-  }
-
-  .md\:ml-10 {
-    margin-left: 2.5rem;
-  }
-
-  .md\:mr-20 {
-    margin-right: 5rem;
   }
 
   .md\:block {
@@ -1508,6 +1515,10 @@ video {
 }
 
 @media (min-width: 300px) and (max-width: 675px) {
+  .xs\:m-36 {
+    margin: 9rem;
+  }
+
   .xs\:my-5 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
@@ -1569,6 +1580,46 @@ video {
     margin-bottom: 1.25rem;
   }
 
+  .xs\:ml-3 {
+    margin-left: 0.75rem;
+  }
+
+  .xs\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .xs\:ml-44 {
+    margin-left: 11rem;
+  }
+
+  .xs\:ml-40 {
+    margin-left: 10rem;
+  }
+
+  .xs\:ml-36 {
+    margin-left: 9rem;
+  }
+
+  .xs\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  .xs\:ml-24 {
+    margin-left: 6rem;
+  }
+
+  .xs\:mr-20 {
+    margin-right: 5rem;
+  }
+
+  .xs\:mr-4 {
+    margin-right: 1rem;
+  }
+
+  .xs\:mr-40 {
+    margin-right: 10rem;
+  }
+
   .xs\:h-full {
     height: 100%;
   }
@@ -1579,6 +1630,54 @@ video {
 
   .xs\:w-full {
     width: 100%;
+  }
+
+  .xs\:w-1\/2 {
+    width: 50%;
+  }
+
+  .xs\:w-3 {
+    width: 0.75rem;
+  }
+
+  .xs\:w-3\/5 {
+    width: 60%;
+  }
+
+  .xs\:w-5 {
+    width: 1.25rem;
+  }
+
+  .xs\:w-52 {
+    width: 13rem;
+  }
+
+  .xs\:w-6 {
+    width: 1.5rem;
+  }
+
+  .xs\:w-64 {
+    width: 16rem;
+  }
+
+  .xs\:w-8 {
+    width: 2rem;
+  }
+
+  .xs\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .xs\:w-7 {
+    width: 1.75rem;
+  }
+
+  .xs\:w-72 {
+    width: 18rem;
+  }
+
+  .xs\:w-4\/12 {
+    width: 33.333333%;
   }
 
   .xs\:flex-col {
@@ -1592,5 +1691,10 @@ video {
   .xs\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .xs\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
