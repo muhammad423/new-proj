@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: ;
+}
+.siz-h{
+    font-size: 3.5rem;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.col-sec1{
+    background-color: #f2f5f7;
+}
+.sec-five{
+    background-color: #f2f5f7;
+}
+
+.sec-seven{
+    background-color: #f2f5f7;
+}
